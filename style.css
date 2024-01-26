@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Digital";
+    src: local("Digital Regular"), local("Digital-Regular"),
+      url("Fonts/digital-7.regular.ttf");
+}
+
+div{
+    text-align: center;
+    
+}
+
+#horlogeText{
+    background-color: black;
+    color: green;
+    border: black 1px solid;
+    padding: 1px;
+    display: inline;
+    font-size: 80px;
+    font-family:"Digital";
+}
+
+#toggleClock{
+    margin-top: 10px;
+}
